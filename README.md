@@ -5,8 +5,7 @@ This repo is an official implementation of the *IQFNet*.
 
 ## Prerequisites
 - The VDT-2048 dataset is available at:https://pan.baidu.com/s/1JyFBtjlJGf4GE2zeciN1wQ?pwd=bipy
-- 
-
+- The pretrained weights for the backbone networks can be downloaded from [this link](https://example.com).
 
 ## Usage
 
@@ -18,8 +17,6 @@ conda activate IQFNet
 pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cu118
 ```
 ### 2. Training
-Download the pretrained model **swin_base_patch4_window12_384_22k.pth**. <br>
-
 You can train the model by using 
 ```
 python Train.py
@@ -32,11 +29,15 @@ python Test.py
 
 ### 4. Evaluation
 The following table provides links to the pre-trained weights and saliency map results of IQFNet on various datasets:
-| Dataset   | Model Weights                                              | Saliency Maps                                             |
-|-----------|------------------------------------------------------------|-----------------------------------------------------------|
-| VDT-2048  | [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe) k3qe | [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe) k3qe |
-| VT-1000   | [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe) k3qe | [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe) k3qe |
-| STERE     | [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe) k3qe | [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe) k3qe |
+| Dataset   | Backbone         | Model Weights                                              | Saliency Maps                                             |
+|-----------|------------------|------------------------------------------------------------|-----------------------------------------------------------|
+| VDT-2048  | Swin Transformer | [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe) k3qe | [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe) k3qe |
+| VDT-2048  | Mobilenetv3 | [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe) k3qe | [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe) k3qe |
+| VDT-2048  | ResNet50 | [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe) k3qe | [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe) k3qe |
+| VDT-2048  | VGG16 | [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe) k3qe | [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe) k3qe |
+| VT-1000   | Swin Transformer | [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe) k3qe | [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe) k3qe |
+| STERE     | Swin Transformer | [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe) k3qe | [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe) k3qe |
+
 
 We adopt the [evaluation toolbox](https://github.com/DengPingFan/SINet) provided by the SINet repository to compute quantitative metrics.
 
