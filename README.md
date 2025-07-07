@@ -34,7 +34,7 @@ python Test.py
 The following table provides links to the pre-trained weights and saliency map results of IQFNet on various datasets:
 | Dataset   | Backbone         | Saliency Maps                                             | Model Weights                                             |
 |-----------|------------------|------------------------------------------------------------|-----------------------------------------------------------|
-| VDT-2048  | Swin Transformer | [Download](https://pan.baidu.com/s/1--DBZLCpAbmVfrUAvJWYlA?pwd=yj3x)| [Download](https://pan.baidu.com/s/1Girb29F6WxQzUjNU6jFn7w?pwd=k3qe)|
+| VDT-2048  | Swin Transformer | [Download](https://pan.baidu.com/s/1--DBZLCpAbmVfrUAvJWYlA?pwd=yj3x)| [Download](https://pan.baidu.com/s/1Pgp4E3iRQvH45LkHRkn_Lw?pwd=a4ux)|
 | VDT-2048  | Mobilenetv3 | [Download](https://pan.baidu.com/s/1vfkim20_eE0RuSCIEF-M4Q?pwd=52gy)| [Download](https://pan.baidu.com/s/1a9h2zVQ57YgwLUmbiSn-NA?pwd=tntu)|
 | VDT-2048  | ResNet50 | [Download](https://pan.baidu.com/s/1xsTBJqFhzBvVuqxdbHXYzQ?pwd=sa3z)| [Download](https://pan.baidu.com/s/1chenHMyO0O7j222lBr6uSQ?pwd=ff5a)|
 | VDT-2048  | VGG16 | [Download](https://pan.baidu.com/s/1YTexEdQafTuBkY9i2ZlV6Q?pwd=sdq9)| [Download](https://pan.baidu.com/s/1wbpEsHTMxZGXius10-f8jA?pwd=gqrx)|
@@ -44,6 +44,6 @@ The following table provides links to the pre-trained weights and saliency map r
 
 - We adopt the [evaluation toolbox](https://github.com/DengPingFan/SINet) provided by the SINet repository to compute quantitative metrics. 
 - We provide the saliency maps for the challenging sub-datasets at the following link:[Download](https://pan.baidu.com/s/1--DBZLCpAbmVfrUAvJWYlA?pwd=yj3x)
-- We provide the saliency maps of competing methods and challenging sub-datasets, which can be accessed via the following link:[Download](https://pan.baidu.com/s/1--DBZLCpAbmVfrUAvJWYlA?pwd=yj3x)
+- We provide the saliency maps of competing methods and challenging sub-datasets, which can be accessed via the following link:[Download](https://pan.baidu.com/s/19-waBKdIR0fFYrNQS3J86g?pwd=usqg)
 
 
