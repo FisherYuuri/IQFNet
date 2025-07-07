@@ -8,7 +8,7 @@ This repo is an official implementation of the *IQFNet*.
 - The pretrained weights for the backbone networks can be downloaded at:
 -  [SwinTransformer](https://pan.baidu.com/s/1lRKC_caVWzVuJwvVfsCWYg?pwd=3hj7).
 -  [Mobilenetv3](https://pan.baidu.com/s/1PDAgND6AxwZHUFlkx2KOTg?pwd=a4c8).
--  [VGG16]([https://example.com](https://pan.baidu.com/s/1QA7IPUp2su2a9QXYiB4GBg?pwd=46ts)).
+-  [VGG16](https://pan.baidu.com/s/1QA7IPUp2su2a9QXYiB4GBg?pwd=46ts).
 
 ## Usage
 
