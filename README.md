@@ -22,12 +22,18 @@ pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https
 ### 2. Training
 You can train the model by using 
 ```
-python Train.py
+cd Train
+python TrainIQFNet.py
+python TrainIQFNetVD.py
+python TrainIQFNetVT.py
 ```
 
 ### 3. Testing
 ```
+cd Test
 python Test.py
+python TestVD.py
+python TestVT.py
 ```
 
 ### 4. Evaluation
@@ -47,3 +53,9 @@ The following table provides links to the pre-trained weights and saliency map r
 - We provide the saliency maps of competing methods and challenging sub-datasets, which can be accessed via the following link:[Download](https://pan.baidu.com/s/19-waBKdIR0fFYrNQS3J86g?pwd=usqg)
 
 
+## Acknowledgements
+We would like to thank the authors of the following projects for their excellent work and contributions to the community:
+- https://github.com/Lx-Bao/IFENet  
+- https://github.com/DengPingFan/SINet  
+- https://github.com/zyrant/LSNet  
+- https://github.com/CSer-Tang-hao/ConTriNet_RGBT-SOD  
